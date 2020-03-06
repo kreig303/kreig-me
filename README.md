@@ -9,6 +9,7 @@
 </h1>
 
 [![dependencies Status](https://david-dm.org/kreig303/kreig-me/status.svg)](https://david-dm.org/kreig303/kreig-me)
+&nbsp;[![devDependencies Status](https://david-dm.org/kreig303/kreig-me/dev-status.svg)](https://david-dm.org/kreig303/kreig-me?type=dev)
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
