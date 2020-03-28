@@ -1,4 +1,5 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+# [kreig.me](https://kreig.me/)
+<!-- AUTO-GENERATED-CONTENT:START (STARTER)
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
@@ -7,7 +8,8 @@
 <h1 align="center">
   Gatsby's default starter
 </h1>
-
+ -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8b63f3f-b666-4a0c-ba59-d93101649cb2/deploy-status)](https://app.netlify.com/sites/cranky-benz-1626f0/deploys)&nbsp;
 [![dependencies Status](https://david-dm.org/kreig303/kreig-me/status.svg)](https://david-dm.org/kreig303/kreig-me)
 &nbsp;[![devDependencies Status](https://david-dm.org/kreig303/kreig-me/dev-status.svg)](https://david-dm.org/kreig303/kreig-me?type=dev)
 

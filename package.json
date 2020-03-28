@@ -1,33 +1,53 @@
 {
   "name": "kreig-me",
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Blog and website for kreig.me",
   "version": "0.1.0",
-  "author": "Kreig Zimmerman <myself@kreig.me>",
   "dependencies": {
-    "gatsby": "^2.19.29",
-    "gatsby-image": "^2.2.42",
-    "gatsby-plugin-manifest": "^2.2.42",
-    "gatsby-plugin-offline": "^3.0.35",
-    "gatsby-plugin-react-helmet": "^3.1.22",
-    "gatsby-plugin-sharp": "^2.4.5",
-    "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-transformer-sharp": "^2.3.16",
+    "gatsby": "^2.20.8",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.3",
     "prop-types": "^15.7.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "prettier": "^2.0.2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "blog",
+    "Kreig Zimmerman"
   ],
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "author": "Kreig Zimmerman (https://github.com/kreig303)",
+  "contributors": [
+    "Kreig Zimmerman (https://github.com/kreig303)"
+  ],
+  "maintainers": [
+    "Kreig Zimmerman (https://github.com/kreig303)"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "scripts": {
     "build": "gatsby build",
+    "commit": "npx git-cz",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "postversion": "git push --all && git push --tags",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
