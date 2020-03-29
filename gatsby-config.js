@@ -1,3 +1,5 @@
+const path = require("path")
+
 module.exports = {
   siteMetadata: {
     title: `kreig.me`,
@@ -10,14 +12,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: path.join(__dirname, "src", "images"),
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
-        path: `${__dirname}/src/markdown-pages`,
+        path: path.join(__dirname, "src", "markdown-pages"),
       },
     },
     `gatsby-transformer-sharp`,
@@ -28,10 +30,10 @@ module.exports = {
         name: `kreig.me`,
         short_name: `kreigme`,
         start_url: `/`,
-        background_color: `#DC143C`,
-        theme_color: `#DC143C`,
+        background_color: `#006400`,
+        theme_color: `#006400`,
         // display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        // icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
         include_favicon: false, // This will exclude favicon link tag
       },
     },

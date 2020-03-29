@@ -4,6 +4,7 @@
   "version": "0.2.1",
   "dependencies": {
     "gatsby": "^2.20.8",
+    "gatsby-background-image": "^0.10.2",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-offline": "^3.1.2",
@@ -11,10 +12,12 @@
     "gatsby-plugin-sharp": "^2.5.3",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-transformer-sharp": "^2.4.3",
+    "path": "^0.12.7",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "commitizen": "^4.0.3",

@@ -1,21 +1,51 @@
 import React from "react"
-// import { Link } from "gatsby"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import StyledFullBackground from "../components/FullBackground"
+
+const StyledBackground = styled(StyledFullBackground)`
+  div {
+    flex-direction: column;
+    padding: 2em 2em;
+  }
+  ,
+  h2 {
+    font-size: 4rem;
+  }
+  ,
+  a {
+    color: black;
+  }
+`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h2>
-      Future home of <a href="https://www.kreig.me">kreig.me</a>.
-    </h2>
-    <p></p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      {/* <Image /> */}
-    </div>
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
+    <SEO
+      title="kreig.me home"
+      keywords={[
+        `gatsby`,
+        `application`,
+        `react`,
+        `kreig zimmerman`,
+        `kreig.me`,
+        `blog`,
+      ]}
+    />
+    <StyledBackground>
+      <div>
+        <h2>
+          <a href="https://github.com/kreig303">Github</a>
+        </h2>
+        <h2>
+          <a href="https://twitter.com/@kreig303">Twitter</a>
+        </h2>
+        <h2>
+          <a href="https://www.linkedin.com/in/kreig">LinkedIn</a>
+        </h2>
+      </div>
+    </StyledBackground>
   </Layout>
 )
 
