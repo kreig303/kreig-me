@@ -1,7 +1,7 @@
 {
   "name": "kreig-me",
   "description": "Blog and website for kreig.me.",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "dependencies": {
     "gatsby": "^2.20.8",
     "gatsby-background-image": "^0.10.2",
@@ -31,9 +31,6 @@
     "Kreig Zimmerman"
   ],
   "license": "MIT",
-  "engines": {
-    "node": ">=12"
-  },
   "author": "Kreig Zimmerman (https://github.com/kreig303)",
   "contributors": [
     "Kreig Zimmerman (https://github.com/kreig303)"
