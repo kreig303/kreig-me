@@ -23,7 +23,7 @@ const StyledBackground = styled(StyledFullBackground)`
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="kreig.me home"
+      title="home"
       keywords={[
         `gatsby`,
         `application`,
