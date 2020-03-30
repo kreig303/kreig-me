@@ -1,7 +1,7 @@
 {
   "name": "kreig-me",
   "description": "Blog and website for kreig.me.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "dependencies": {
     "gatsby": "^2.20.8",
     "gatsby-background-image": "^0.10.2",
