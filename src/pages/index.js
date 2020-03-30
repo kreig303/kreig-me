@@ -8,11 +8,11 @@ import StyledFullBackground from "../components/FullBackground"
 const StyledBackground = styled(StyledFullBackground)`
   div {
     flex-direction: column;
-    padding: 2em 2em;
+    padding: 3rem 3rem;
   }
   ,
   h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   ,
   a {
