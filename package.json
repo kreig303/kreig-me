@@ -31,9 +31,6 @@
     "Kreig Zimmerman"
   ],
   "license": "MIT",
-  "engines": {
-    "node": ">=12"
-  },
   "author": "Kreig Zimmerman (https://github.com/kreig303)",
   "contributors": [
     "Kreig Zimmerman (https://github.com/kreig303)"
