@@ -22,6 +22,7 @@ module.exports = {
         path: path.join(__dirname, "src", "markdown-pages"),
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -30,8 +31,8 @@ module.exports = {
         name: `kreig.me`,
         short_name: `kreigme`,
         start_url: `/`,
-        background_color: `#006400`,
-        theme_color: `#006400`,
+        background_color: `#4682B4`,
+        theme_color: `#4682B4`,
         // display: `minimal-ui`,
         // icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
         include_favicon: false, // This will exclude favicon link tag
