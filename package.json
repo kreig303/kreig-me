@@ -50,7 +50,8 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "postversion": "git push --all && git push --tags",
-    "start": "npm run develop",
+    "start": "npm run serve",
+    "start:dev": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
