@@ -1,8 +1,8 @@
-import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import styled from "styled-components"
+import React from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
+import styled from 'styled-components'
 
-import PostLink from "./PostLink"
+import PostLink from './PostLink'
 
 const BlogList = () => {
   const pageQuery = useStaticQuery(graphql`

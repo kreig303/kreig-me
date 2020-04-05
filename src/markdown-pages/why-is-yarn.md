@@ -1,7 +1,7 @@
 ---
-path: "/blog/why-is-yarn"
-date: "2020-04-06"
-title: "Mommy, why does `yarn` exist???"
+path: '/blog/why-is-yarn'
+date: '2020-04-06'
+title: 'Mommy, why does `yarn` exist???'
 keywords:
   - yarn
   - npm

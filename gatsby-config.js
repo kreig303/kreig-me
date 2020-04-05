@@ -1,4 +1,4 @@
-const path = require("path")
+const path = require('path')
 
 module.exports = {
   siteMetadata: {
@@ -12,14 +12,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: path.join(__dirname, "src", "images"),
+        path: path.join(__dirname, 'src', 'images'),
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
-        path: path.join(__dirname, "src", "markdown-pages"),
+        path: path.join(__dirname, 'src', 'markdown-pages'),
       },
     },
     `gatsby-transformer-remark`,

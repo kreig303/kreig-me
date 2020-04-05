@@ -1,9 +1,9 @@
-import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import styled from "styled-components"
+import React from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
+import styled from 'styled-components'
 
-import BackgroundImage from "gatsby-background-image"
-import { StyledFullScreenWrapper } from "./SharedStyledComponents"
+import BackgroundImage from 'gatsby-background-image'
+import { StyledFullScreenWrapper } from './SharedStyledComponents'
 
 /**
  * In this functional component a fullscreen <BackgroundImage />  is created.

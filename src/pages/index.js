@@ -1,8 +1,8 @@
-import React from "react"
+import React from 'react'
 
-import BlogList from "../components/BlogList"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import BlogList from '../components/BlogList'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
