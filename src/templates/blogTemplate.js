@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import Seo from '../components/Seo'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -25,7 +25,7 @@ export default function Template({
   console.log(`postKeywords: ${postKeywords}`)
   return (
     <Layout>
-      <SEO title={frontmatter.title} keywords={postKeywords} />
+      <Seo title={frontmatter.title} keywords={postKeywords} />
       <div className="blog-post-container">
         <div className="blog-post">
           <h1>{frontmatter.title}</h1>

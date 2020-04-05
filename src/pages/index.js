@@ -1,12 +1,12 @@
 import React from 'react'
 
 import BlogList from '../components/BlogList'
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import Seo from '../components/Seo'
 
 const IndexPage = () => (
   <Layout>
-    <SEO
+    <Seo
       title="home"
       keywords={[
         `gatsby`,
