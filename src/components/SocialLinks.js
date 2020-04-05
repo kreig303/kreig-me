@@ -4,13 +4,19 @@ const SocialLinks = () => {
   return (
     <div className="social">
       <h3 className="social">
-        <a href="https://github.com/kreig303">Github</a>
+        <a href="https://github.com/kreig303" className="social">
+          Github
+        </a>
       </h3>
       <h3 className="social">
-        <a href="https://twitter.com/@kreig303">Twitter</a>
+        <a href="https://twitter.com/@kreig303" className="social">
+          Twitter
+        </a>
       </h3>
       <h3 className="social">
-        <a href="https://www.linkedin.com/in/kreig">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/kreig" className="social">
+          LinkedIn
+        </a>
       </h3>
     </div>
   )

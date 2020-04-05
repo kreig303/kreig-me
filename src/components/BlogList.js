@@ -27,7 +27,11 @@ const BlogList = () => {
     .filter((edge) => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map((edge) => <PostLink key={edge.node.id} post={edge.node} />)
 
-  return <div>{Posts}</div>
+  return (
+    <div className="blog-list-container">
+      <div className="blog-list">{Posts}</div>
+    </div>
+  )
 }
 
 const StyledBlogList = styled(BlogList)`

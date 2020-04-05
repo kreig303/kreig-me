@@ -2,22 +2,8 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Footer = () => (
-  <footer
-    style={{
-      background: `steelblue`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 1600,
-        fontFamily: `sans-serif`,
-        padding: `1.45rem 1.0875rem`,
-        display: `flex`,
-        flexDirection: `row`,
-      }}
-    >
+  <footer className="gutter">
+    <div style={{ padding: `0 2rem` }}>
       Copyright &copy; {new Date().getFullYear()}
       {` `}&bull;{` `}All Rights Reserved{` `}&bull;
       {` `}A{` `}

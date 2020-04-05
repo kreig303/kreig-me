@@ -5,26 +5,18 @@ import React from "react"
 import SocialLinks from "./SocialLinks"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `steelblue`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className="gutter">
     <div
       style={{
-        margin: `0 auto`,
-        maxWidth: 1600,
-        padding: `1.45rem 1.0875rem`,
-        display: `flex`,
-        flexDirection: `row`,
+        padding: `0 2rem`,
+        display: `grid`,
+        gridTemplateColumns: `35rem 30rem`,
       }}
     >
-      <h1 style={{ margin: 0, padding: `0 2rem` }}>
+      <h1>
         <Link
           to="/"
           style={{
-            color: `white`,
             textDecoration: `none`,
           }}
         >
