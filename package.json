@@ -21,8 +21,6 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
-    "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.1.0",
     "gatsby-cli": "^2.11.3",
     "prettier": "^2.0.2"
   },
@@ -39,14 +37,8 @@
   "maintainers": [
     "Kreig Zimmerman (https://github.com/kreig303)"
   ],
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "scripts": {
     "build": "gatsby build",
-    "commit": "npx git-cz",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "postversion": "git push --all && git push --tags",
